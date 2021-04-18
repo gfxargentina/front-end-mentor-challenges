@@ -1,6 +1,8 @@
 # Frontend Mentor - Four card feature section
 
-![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
+Practica de html y css, siguiendo el tutorial de florinpop, le agregue un hover a los border de cada card.
+
+![Preview](./design/01-four-cards.PNG)
 
 ## Welcome! 👋
 
