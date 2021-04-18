@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 
-* {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
@@ -38,7 +40,7 @@ p {
 }
 
 .box {
-    background-color: aliceblue;
+    background-color: white;
     box-shadow: 0 19px 38px rgba(0,0,0,0.05), 0 15px 12px rgba(0,0,0,0.1);    
     border-radius: 5px;
     padding: 30px;
@@ -47,19 +49,35 @@ p {
 }
 
 .box1-color {
-    border-top: 5px solid hsl(0, 78%, 62%);
+    border-top: 5px solid hsl(0, 78%, 62%);    
+}
+
+.box1:hover {
+    border-top: 5px solid hsl(0, 72%, 72%);
 }
 
 .box2-color {
     border-top: 5px solid hsl(180, 62%, 55%);
 }
 
+.box2:hover {
+    border-top: 5px solid hsl(180, 45%, 75%);
+}
+
 .box3-color {
     border-top: 5px solid hsl(34, 97%, 64%);
 }
 
+.box3:hover {
+    border-top: 5px solid hsl(34, 100%, 81%);
+}
+
 .box4-color {
     border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.box4:hover {
+    border-top: 5px solid hsl(212, 66%, 78%);
 }
 
 .box h2 {
@@ -86,6 +104,8 @@ p {
 a:link {
     text-decoration: none;
   }
+
+  
 
 footer {
     text-align: center;
